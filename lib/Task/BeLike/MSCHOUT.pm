@@ -11,20 +11,22 @@ use warnings;
 
 =pkg App::Nopaste 0.28 Gist support via Gist API
 
-=pkg App::cpanminus CPAN improved
+=pkg App::cpanminus
 
-=pkg App::cpanoutdated Show outdated CPAN modules
+=pkg App::cpanoutdated
 
-=pkg Perl::Tidy tidy up perl code
+=pkg Perl::Tidy
 
-=pkg Vimana vim scripts manager
+=pkg Vimana
 
 
-=pkggroup Useful CPAN Modules
+=pkgroup Useful CPAN Modules
 
 =pkg Archive::Zip
 
 =pkg BackPAN::Index
+
+=pkg LWP::Protocol::https
 
 =pkg CSS::Minifier
 
