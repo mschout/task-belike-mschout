@@ -1,0 +1,35 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 40b8e16c48804166b749404eeabb5985be28cdfd Changes
+SHA1 4fd8ebb0b76e79683f3cace70017ceb8c81331b2 LICENSE
+SHA1 8232503816ff7f11808b05b3585ec5c7d5376e9a MANIFEST
+SHA1 1a8eb42046800eae1c72e289adbb3669a2e6ac96 META.yml
+SHA1 89ea57470ee7aaedf510ce8ef0888f37fbc89c58 Makefile.PL
+SHA1 e6d194cca8905ab1e3886afece82113bfbcb4ca3 README
+SHA1 82d73541f0883b7044b87c3a30bfaa96224289f9 dist.ini
+SHA1 7839fedcca155c358a63464078102535188e6c98 lib/Task/BeLike/MSCHOUT.pm
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+SHA1 812c73cc8e8feda102370afec8c62156b7014212 t/task-bogus.t
+SHA1 dc5577d84d6015589321fed7ab730d17a80d4410 weaver.ini
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk3kESwACgkQ+CqvSzp9LOymhwCcCapwKUuNO05pcAJSKzdaAeo8
+BgcAnjvsCTybAbl8c0KSXPIeOu9Isaz7
+=aFpN
+-----END PGP SIGNATURE-----

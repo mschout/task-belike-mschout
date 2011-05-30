@@ -1,0 +1,13 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+SIGNATURE
+dist.ini
+lib/Task/BeLike/MSCHOUT.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
+t/task-bogus.t
+weaver.ini
