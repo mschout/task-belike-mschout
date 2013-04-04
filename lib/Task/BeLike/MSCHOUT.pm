@@ -1,6 +1,6 @@
 package Task::BeLike::MSCHOUT;
-BEGIN {
-  $Task::BeLike::MSCHOUT::VERSION = '1.111500';
+{
+  $Task::BeLike::MSCHOUT::VERSION = '1.130940';
 }
 
 use strict;
@@ -8,8 +8,8 @@ use warnings;
 
 # ABSTRACT: be more like MSCHOUT -- use the modules he does!
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -18,7 +18,7 @@ Task::BeLike::MSCHOUT - be more like MSCHOUT -- use the modules he does!
 
 =head1 VERSION
 
-version 1.111500
+version 1.130940
 
 =head1 TASK CONTENTS
 
@@ -46,8 +46,6 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<BackPAN::Index>
 
-=head3 L<LWP::Protocol::https>
-
 =head3 L<CSS::Minifier>
 
 =head3 L<CSS::Minifier::XS>
@@ -56,11 +54,17 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<DBI>
 
+=head3 L<Devel::NYTProf>
+
+=head3 L<Dist::Zilla::Plugin::GitHub>
+
 =head3 L<Dist::Zilla::Plugin::Twitter>
 
 =head3 L<Dist::Zilla::PluginBundle::MSCHOUT>
 
-=head3 L<Dist::Zilla::PluginBundle::RJBS>
+=head3 L<File::Find::Rule>
+
+=head3 L<Git::CPAN::Patch>
 
 =head3 L<Gravatar::URL>
 
@@ -72,7 +76,29 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<JavaScript::Minifier::XS>
 
+=head3 L<LWP>
+
+=head3 L<LWP::Protocol::https>
+
+=head3 L<List::MoreUtils>
+
+=head3 L<Method::Signatures>
+
 =head3 L<Modern::Perl>
+
+=head3 L<Moo>
+
+=head3 L<Moose>
+
+=head3 L<Moose::Autobox>
+
+=head3 L<MooseX::App>
+
+=head3 L<MooseX::Method::Signatures>
+
+=head3 L<Mouse>
+
+=head3 L<Perl6::Junction>
 
 =head3 L<Pod::Coverage::TrustPod>
 
@@ -84,6 +110,10 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<Test::Pod::Coverage>
 
+=head3 L<TryCatch>
+
+=head3 L<URI>
+
 1;
 
 =head1 AUTHOR
@@ -92,7 +122,7 @@ Michael Schout <mschout@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2011 by Michael Schout.
+This software is copyright (c) 2013 by Michael Schout.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
@@ -108,4 +138,3 @@ Please report any bugs or feature requests to bug-task-belike-mschout@rt.cpan.or
  http://rt.cpan.org/Public/Dist/Display.html?Name=Task-BeLike-MSCHOUT
 
 =cut
-
