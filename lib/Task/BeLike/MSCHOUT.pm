@@ -19,14 +19,11 @@ use warnings;
 
 =pkg Vimana
 
-
 =pkgroup Useful CPAN Modules
 
 =pkg Archive::Zip
 
 =pkg BackPAN::Index
-
-=pkg LWP::Protocol::https
 
 =pkg CSS::Minifier
 
@@ -36,11 +33,17 @@ use warnings;
 
 =pkg DBI
 
+=pkg Devel::NYTProf
+
+=pkg Dist::Zilla::Plugin::GitHub
+
 =pkg Dist::Zilla::Plugin::Twitter
 
 =pkg Dist::Zilla::PluginBundle::MSCHOUT
 
-=pkg Dist::Zilla::PluginBundle::RJBS
+=pkg File::Find::Rule
+
+=pkg Git::CPAN::Patch
 
 =pkg Gravatar::URL
 
@@ -52,7 +55,29 @@ use warnings;
 
 =pkg JavaScript::Minifier::XS
 
+=pkg LWP
+
+=pkg LWP::Protocol::https
+
+=pkg List::MoreUtils
+
+=pkg Method::Signatures
+
 =pkg Modern::Perl
+
+=pkg Moo
+
+=pkg Moose
+
+=pkg Moose::Autobox
+
+=pkg MooseX::App
+
+=pkg MooseX::Method::Signatures
+
+=pkg Mouse
+
+=pkg Perl6::Junction
 
 =pkg Pod::Coverage::TrustPod
 
@@ -63,5 +88,9 @@ use warnings;
 =pkg Template::Test
 
 =pkg Test::Pod::Coverage
+
+=pkg TryCatch
+
+=pkg URI
 
 1;
