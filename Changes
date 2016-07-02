@@ -1,6 +1,8 @@
 Revision history for Task-BeLike-MSCHOUT
 
 {{$NEXT}}
+    - add deps:
+        - Dist::Zilla::Plugin::CopyFilesFromBuild
 
 1.130940  2013-04-04
     - update deps

@@ -39,6 +39,8 @@ use warnings;
 
 =pkg Dist::Zilla::Plugin::Twitter
 
+=pkg Dist::Zilla::Plugin::CopyFilesFromBuild
+
 =pkg Dist::Zilla::PluginBundle::MSCHOUT
 
 =pkg File::Find::Rule
