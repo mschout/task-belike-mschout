@@ -19,6 +19,8 @@ use warnings;
 
 =pkg Vimana
 
+=pkg WWW::Shorten
+
 =pkgroup Useful CPAN Modules
 
 =pkg Archive::Zip
@@ -28,6 +30,8 @@ use warnings;
 =pkg CSS::Minifier
 
 =pkg CSS::Minifier::XS
+
+=pkg Config::Auto
 
 =pkg DBD::SQLite
 
