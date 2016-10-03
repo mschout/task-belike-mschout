@@ -1,8 +1,5 @@
 package Task::BeLike::MSCHOUT;
-{
-  $Task::BeLike::MSCHOUT::VERSION = '1.130940';
-}
-
+$Task::BeLike::MSCHOUT::VERSION = '1.162770';
 use strict;
 use warnings;
 
@@ -12,13 +9,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Task::BeLike::MSCHOUT - be more like MSCHOUT -- use the modules he does!
 
 =head1 VERSION
 
-version 1.130940
+version 1.162770
 
 =head1 TASK CONTENTS
 
@@ -40,6 +39,8 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<Vimana>
 
+=head3 L<WWW::Shorten>
+
 =head2 Useful CPAN Modules
 
 =head3 L<Archive::Zip>
@@ -50,6 +51,8 @@ Version 0.28 required because: Gist support via Gist API
 
 =head3 L<CSS::Minifier::XS>
 
+=head3 L<Config::Auto>
+
 =head3 L<DBD::SQLite>
 
 =head3 L<DBI>
@@ -59,6 +62,8 @@ Version 0.28 required because: Gist support via Gist API
 =head3 L<Dist::Zilla::Plugin::GitHub>
 
 =head3 L<Dist::Zilla::Plugin::Twitter>
+
+=head3 L<Dist::Zilla::Plugin::CopyFilesFromBuild>
 
 =head3 L<Dist::Zilla::PluginBundle::MSCHOUT>
 
@@ -122,7 +127,7 @@ Michael Schout <mschout@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Michael Schout.
+This software is copyright (c) 2016 by Michael Schout.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
