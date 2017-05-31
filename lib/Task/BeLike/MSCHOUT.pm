@@ -49,6 +49,8 @@ use warnings;
 
 =pkg File::Find::Rule
 
+=pkg Function::Parameters
+
 =pkg Git::CPAN::Patch
 
 =pkg Gravatar::URL
@@ -79,13 +81,13 @@ use warnings;
 
 =pkg MooseX::App
 
-=pkg MooseX::Method::Signatures
-
 =pkg Mouse
 
 =pkg Perl6::Junction
 
 =pkg Pod::Coverage::TrustPod
+
+=pkg Syntax::Feature::Try
 
 =pkg SQL::Beautify
 
@@ -94,8 +96,6 @@ use warnings;
 =pkg Template::Test
 
 =pkg Test::Pod::Coverage
-
-=pkg TryCatch
 
 =pkg URI
 
