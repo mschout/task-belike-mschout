@@ -3,6 +3,7 @@ Revision history for Task-BeLike-MSCHOUT
 {{$NEXT}}
 
 1.171510  2017-05-31
+    - replace TryCatch, MooseX::Method::Signatures with Syntax::Feature::Try and Function::Parameters
 
 1.162770  2016-10-03
     - add deps:
